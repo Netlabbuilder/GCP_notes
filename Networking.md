@@ -12,7 +12,7 @@
   - Best practice is to create a custom mode VPC network and include subnets only in desired regions
 - **Subnets**
   - One of *regional resources (\*\*)*
-- **Global resources** - [details](https://docs.cloud.google.com/compute/docs/regions-zones/global-regional-zonal-resources#)
+- **Global resources** - [more details can be found here](https://docs.cloud.google.com/compute/docs/regions-zones/global-regional-zonal-resources#)
   - Global resources are accessible by any resource in any zone within the same project.
     When creating a global resource, there is no need to provide a scope specification
   - 
