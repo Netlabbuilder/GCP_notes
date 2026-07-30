@@ -3,7 +3,7 @@
 ### 1. Official documentation and resources at [Google Cloud docs](https://docs.cloud.google.com/docs/networking)
 ### 2. Key Terms and Concepts
 - **Regions**
-  - GCP Region is an independent geographic area where resources run
+  - GCP region is an independent geographic area where resources run
   - APAC (Asia and Australia), Europe, Africa, Middle East, North America, and South America
 - **Virtual Private Cloud (VPC) networks**
   - A VPC network is a virtualized network within Google Cloud
