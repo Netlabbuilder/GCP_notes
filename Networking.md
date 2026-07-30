@@ -13,7 +13,12 @@
     - South America `southamerica`
   - Each GCP has zones, typically at least three zones
 - **Zones**
-  - GCP Regions are divided into zones
+  - GCP Regions are divided into zones - `a`, `b`, `c`...
+  - A single failure domain within a region
+  - Resource distribution:
+    - Resources into regions and zones:
+      - Redundancy in case of failure
+      - Latency improvement by locating resources closer to clients
 - **Virtual Private Cloud (VPC) networks**
   - A VPC network is a virtualized network within Google Cloud
   - One of *global resources (\*)* and not associated with any particular region or zone
@@ -22,6 +27,5 @@
 - **Subnets**
   - One of *regional resources (\*\*)*
 - **Global resources** - [more details can be found here](https://docs.cloud.google.com/compute/docs/regions-zones/global-regional-zonal-resources#)
-  - Global resources are accessible by any resource in any zone within the same project.
-    When creating a global resource, there is no need to provide a scope specification
-  - 
+  - Global resources are accessible by any resource in any zone within the same project
+  - No scope specification when creating a global resource
