@@ -12,6 +12,10 @@
     - North America - US `us`, Canada and Mexico `northamerica`
     - South America `southamerica`
   - Each GCP has zones, typically at least three zones
+  - Resource distribution:
+    - Resources into regions and zones:
+      - Redundancy in case of failure
+      - Latency improvement by locating resources closer to clients
 - **Zones**
   - GCP Regions are divided into zones - `a`, `b`, `c`...
   - A single failure domain within a region
