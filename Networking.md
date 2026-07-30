@@ -37,11 +37,14 @@
 - **Subnets**
   - One of *regional resources (\*\*)*
 - **Global, regional, and zonal resources**
-  - **(\*) Global resources** - [more details can be found here](https://docs.cloud.google.com/compute/docs/regions-zones/global-regional-zonal-resources#globalresources)
+  - **(\*) Global resources**
     - Global resources are accessible by any resource in any zone within the same project
     - No scope specification when creating a global resource
-  - **(\*\*) Regional resources** - [more details can be found here](https://docs.cloud.google.com/compute/docs/regions-zones/global-regional-zonal-resources#regionalresources)
+    - [more details can be found here](https://docs.cloud.google.com/compute/docs/regions-zones/global-regional-zonal-resources#globalresources)
+  - **(\*\*) Regional resources**
     - Regional resources are accessible by any resources within the same region
-  - **Zonal resources** - [more details can be found here](https://docs.cloud.google.com/compute/docs/regions-zones/global-regional-zonal-resources#zoneresource)
+    - [more details can be found here](https://docs.cloud.google.com/compute/docs/regions-zones/global-regional-zonal-resources#regionalresources)
+  - **Zonal resources**
     - Hosted in a zone - zone-specific or per-zone resources
     - Are unique to a zone and only usable by other resources in the same zone
+    - [more details can be found here](https://docs.cloud.google.com/compute/docs/regions-zones/global-regional-zonal-resources#zoneresource)
