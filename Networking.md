@@ -16,6 +16,7 @@
     - Resources into regions and zones:
       - Redundancy in case of failure
       - Latency improvement by locating resources closer to clients
+  - [More details can be found here](https://docs.cloud.google.com/docs/overview#universes_regions_and_zones)
 - **Zones**
   - GCP Regions are divided into zones - `a`, `b`, `c`...
   - A single failure domain within a region
@@ -27,6 +28,7 @@
     - GPU locations - [more details can be found here](https://docs.cloud.google.com/compute/docs/regions-zones/gpu-regions-zones)
     - TPU locations - [more details can be found here](https://docs.cloud.google.com/compute/docs/regions-zones/tpu-regions-zones)
     - AI Zones - [more details can be found here](https://docs.cloud.google.com/compute/docs/regions-zones/ai-zones)
+  - [More details can be found here](https://docs.cloud.google.com/docs/overview#universes_regions_and_zones)
 - **Virtual Private Cloud (VPC) networks**
   - A VPC network is a virtualized network within Google Cloud
   - One of *global resources (\*)* and not associated with any particular region or zone
