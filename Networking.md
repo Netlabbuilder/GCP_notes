@@ -19,6 +19,10 @@
     - Resources into regions and zones:
       - Redundancy in case of failure
       - Latency improvement by locating resources closer to clients
+  - There are specialized zones for AI and ML workloads:
+    - GPU locations - [more details can be found here](https://docs.cloud.google.com/compute/docs/regions-zones/gpu-regions-zones)
+    - TPU locations - [more details can be found here](https://docs.cloud.google.com/compute/docs/regions-zones/tpu-regions-zones)
+    - AI Zones - [more details can be found here](https://docs.cloud.google.com/compute/docs/regions-zones/ai-zones)
 - **Virtual Private Cloud (VPC) networks**
   - A VPC network is a virtualized network within Google Cloud
   - One of *global resources (\*)* and not associated with any particular region or zone
