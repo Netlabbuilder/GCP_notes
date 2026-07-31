@@ -2,4 +2,4 @@
 
 ### 1. Hybrid and multicloud resources - [read more details at here](https://docs.cloud.google.com/architecture/hybrid-multicloud)
 
-### 1. Networking resources - [read more details at here](https://docs.cloud.google.com/architecture/networking)
+### 2. Networking resources - [read more details at here](https://docs.cloud.google.com/architecture/networking)
