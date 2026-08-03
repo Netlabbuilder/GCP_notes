@@ -37,7 +37,12 @@
   - Best practice is to create a custom mode VPC network and include subnets only in desired regions
 - **Subnets**
   - One of *regional resources (\*\*)*
-  - The minimum subnet size is eight IP addresses - longest subnet mask is `/29`
+  - The minimum subnet size: eight IP addresses, or longest subnet mask is `/29`
+  - *Unusable addresses* (taking `10.0.0.0/24` as an example)
+    - Network address as first address in the primary IPv4 range: `10.0.0.0`
+    - Default gateway address as second address in the primary IPv4 range: `10.0.0.1`
+    - Second-to-last address as second-to-last address in the primary IPv4 range: `10.0.0.254`
+    - Broadcast address as last address in the primary IPv4 range: `10.0.0.255`
 - **Global, regional, and zonal resources**
   - **(\*) Global resources**
     - Global resources are accessible by any resource in any zone within the same project
