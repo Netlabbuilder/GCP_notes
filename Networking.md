@@ -43,6 +43,8 @@
     - Default gateway address as second address in the primary IPv4 range: `10.0.0.1`
     - Second-to-last address as second-to-last address in the primary IPv4 range: `10.0.0.254`
     - Broadcast address as last address in the primary IPv4 range: `10.0.0.255`
+  - Auto mode VPC networks use IPv4 addresses from the `10.128.0.0/9` block:
+    -  If custom mode VPC networks use IP addresses in this block, they cannot connect to an auto mode VPC network using VPC Network Peering or with Cloud VPN tunnels.   
 - **Global, regional, and zonal resources**
   - **(\*) Global resources**
     - Global resources are accessible by any resource in any zone within the same project
