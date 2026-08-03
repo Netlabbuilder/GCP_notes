@@ -37,6 +37,7 @@
   - Best practice is to create a custom mode VPC network and include subnets only in desired regions
 - **Subnets**
   - One of *regional resources (\*\*)*
+  - The minimum subnet size is eight IP addresses - longest subnet mask is `/29`
 - **Global, regional, and zonal resources**
   - **(\*) Global resources**
     - Global resources are accessible by any resource in any zone within the same project
