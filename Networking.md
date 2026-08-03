@@ -32,6 +32,7 @@
 - **Virtual Private Cloud (VPC) networks**
   - A VPC network is a virtualized network within Google Cloud
   - One of *global resources (\*)* and not associated with any particular region or zone
+  - Projects can contain multiple VPC networks
   - New projects start with a default network, an auto mode VPC network, that has one subnet in each region
   - Best practice is to create a custom mode VPC network and include subnets only in desired regions
 - **Subnets**
