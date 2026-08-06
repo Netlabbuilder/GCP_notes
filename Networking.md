@@ -51,7 +51,10 @@
     - the same project
     - different projects of the same organization
     - different projects of different organizations 
-
+  - The following characteristics of peering traffic between peered networks are same as those of traffic within the same VPC network:
+    - latency
+    - throughput
+    - availability
 
 - **Global, regional, and zonal resources**
   - **(\*) Global resources**
