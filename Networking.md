@@ -46,7 +46,11 @@
   - Auto mode VPC networks use IPv4 addresses from the `10.128.0.0/9` block:
     -  If custom mode VPC networks use IP addresses in this block, they cannot connect to an auto mode VPC network using VPC Network Peering or with Cloud VPN tunnels
 - **VPC Network Peering**
-  - VPC Network Peering is used to connect two Virtual Private Cloud (VPC) networks
+  - VPC Network Peering
+    - is used to connect two Virtual Private Cloud (VPC) networks
+    - supports both IPv4 and IPv6 connectivity
+    - does not offer transitive routing
+    - does not work on two auto mode VPC networks
   - Peered VPC networks can be in:
     - the same project
     - different projects of the same organization
@@ -55,10 +59,6 @@
     - latency
     - throughput
     - availability
-  - VPC Network Peering:
-    - does not offer transitive routing
-    - does not work on two auto mode VPC networks
-    - supports both IPv4 and IPv6 connectivity
 
 - **Global, regional, and zonal resources**
   - **(\*) Global resources**
