@@ -13,17 +13,17 @@
     - South America `southamerica`
   - Each GCP has zones, typically at least three zones
   - Resource distribution:
-    - Resources into regions and zones:
-      - Redundancy in case of failure
-      - Latency improvement by locating resources closer to clients
+    - Best practice is to place resources into regions and zones for:
+      - redundancy in case of failure
+      - latency improvement by locating resources closer to clients
   - [More details can be found here](https://docs.cloud.google.com/docs/overview#universes_regions_and_zones)
 - **Zones**
   - GCP Regions are divided into zones - `a`, `b`, `c`...
   - A single failure domain within a region
   - Resource distribution:
-    - Resources into regions and zones:
-      - Redundancy in case of failure
-      - Latency improvement by locating resources closer to clients
+    - Best practice is to place resources into regions and zones for:
+      - redundancy in case of failure
+      - latency improvement by locating resources closer to clients
   - There are specialized zones for AI and ML workloads:
     - GPU locations - [more details can be found here](https://docs.cloud.google.com/compute/docs/regions-zones/gpu-regions-zones)
     - TPU locations - [more details can be found here](https://docs.cloud.google.com/compute/docs/regions-zones/tpu-regions-zones)
@@ -55,6 +55,8 @@
     - latency
     - throughput
     - availability
+  - does not offer transitive routing
+  - does not work on two auto mode VPC networks
 
 - **Global, regional, and zonal resources**
   - **(\*) Global resources**
