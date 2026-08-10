@@ -13,6 +13,10 @@
     - Multi-zone
     - Multi-region 
   - Cost, latency, and operational considerations
+    - Distributed infrastructure consists of higher number of resources, which leads to:
+      -  higher cost
+      -  design complexity
+      -  operational complexity
   - Deployment architectures
     - Single-zone deployment
     - Multi-zone deployment
