@@ -9,9 +9,10 @@
 #### 4. Design reliable infrastructure for your workloads in Google Cloud - [more details can be found here](https://docs.cloud.google.com/architecture/infra-reliability-guide/design)
   - Avoid single points of failure
   - Distribute resources and create redundancy
-    - Single-zone
-    - Multi-zone
-    - Multi-region 
+    - Following deployment architectures can be chose depending on reliability requirements:
+      - Single-zone
+      - Multi-zone
+      - Multi-region 
   - Cost, latency, and operational considerations
     - Distributed infrastructure consists of higher number of resources, which leads to:
       -  higher cost
